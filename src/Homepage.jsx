@@ -30,7 +30,7 @@ function HomePage() {
             <tbody>
               <tr>
                 <td><a href="https://resumai-pi.vercel.app/" target="_blank" rel="noopener noreferrer">ResumAI</a></td>
-                <td><img src='/public/ResumAi.webp' alt="Project 1" className="project-image" /></td>
+                <td><img src='/ResumAI.webp' alt="Project 1" className="project-image" /></td>
                 <td>An AI application that gives students tailored feedback on improving their resume.</td>
               </tr>
             </tbody>

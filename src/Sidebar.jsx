@@ -3,7 +3,7 @@ import './styles/Sidebar.css';
 export default function Sidebar() {
   return (
     <div className="sidebar">
-      <img src="/public/profile-photo.jpg" alt="Profile" className="profile-pic" />
+      <img src="/profile-photo.jpg" alt="Profile" className="profile-pic" />
       <h2 className="name">Altay Hodoglugil</h2>
       <p className="sub-name">Computer Science | UC Berkeley</p>
       <div className="icons">
