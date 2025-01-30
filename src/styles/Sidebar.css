@@ -1,0 +1,43 @@
+.sidebar {
+  width: 300px;
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.icons i {
+  font-size: 1.5em;
+  color: #ecf0f1;
+  transition: color 0.3s ease;
+}
+
+.icons i:hover {
+  color: #3498db;
+}
+
+.homepage .bio {
+  max-width: 800px;
+  line-height: 1.6;
+  font-size: 1.1em;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
