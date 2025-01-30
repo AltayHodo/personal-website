@@ -9,7 +9,7 @@ function App() {
     <div className="app">
       <Sidebar />
       <div className="content">
-        <h1>Welcome to my website</h1>
+        <h1>Welcome to my website!</h1>
         <Outlet />
       </div>
     </div>

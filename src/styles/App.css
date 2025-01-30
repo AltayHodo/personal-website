@@ -1,11 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .app {
   display: flex;
   height: 100vh;
   font-family: Arial, sans-serif;
 }
+
 .content {
-  flex-grow: 1;
   padding: 20px;
   background-color: #f9f9f9;
   color: #333;
+}
+
+h1{
+  margin-bottom: 15px;
 }
