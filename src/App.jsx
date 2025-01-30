@@ -1,6 +1,8 @@
 import './styles/App.css'
 import { Outlet } from 'react-router-dom';
 import Sidebar from './Sidebar';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 function App() {
   return (

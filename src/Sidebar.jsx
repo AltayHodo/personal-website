@@ -1,20 +1,24 @@
 import './styles/Sidebar.css';
+import profilePhoto from './assets/profile-photo.jpg';
 
 export default function Sidebar() {
   return (
     <div className="sidebar">
-      <img src="./assets/profile-photo.JPG" alt="Profile" className="profile-pic" />
-      <h2>Your Name</h2>
+      <img src={profilePhoto} alt="Profile" className="profile-pic" />
+      <h2>Altay Hodoglugil</h2>
       <p>Computer Science | UC Berkeley</p>
       <div className="icons">
-        <a href="https://github.com/your-profile" target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-github"></i>
+        <a href="" className="location-icon">
+          <i className="fa-solid fa-location-dot icon-pad-right"></i><span>Berkeley, CA</span>
         </a>
-        <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-linkedin"></i>
+        <a href="https://github.com/altayhodo" target="_blank" rel="noopener noreferrer">
+          <i className="fab fa-github"></i> <span>Github</span>
         </a>
-        <a href="mailto:your-email@berkeley.edu">
-          <i className="fas fa-envelope"></i>
+        <a href="https://www.linkedin.com/in/altay-hodoglugil-48268a25b/" target="_blank" rel="noopener noreferrer">
+          <i className="fab fa-linkedin"></i> <span>LinkedIn</span>
+        </a>
+        <a href="mailto:altayhodoh@berkeley.edu">
+          <i className="fas fa-envelope"></i> <span>Email</span>
         </a>
       </div>
     </div>
