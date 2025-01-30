@@ -1,6 +1,4 @@
 import './styles/Homepage.css';
-import resumAILogo from './assets/ResumAI.webp';
-
 
 function HomePage() {
   return (
@@ -32,7 +30,7 @@ function HomePage() {
             <tbody>
               <tr>
                 <td><a href="https://resumai-pi.vercel.app/" target="_blank" rel="noopener noreferrer">ResumAI</a></td>
-                <td><img src={resumAILogo} alt="Project 1" className="project-image" /></td>
+                <td><img src='/src/assets/ResumAi.webp' alt="Project 1" className="project-image" /></td>
                 <td>An AI application that gives students tailored feedback on improving their resume.</td>
               </tr>
             </tbody>

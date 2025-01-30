@@ -1,10 +1,9 @@
 import './styles/Sidebar.css';
-import profilePhoto from './assets/profile-photo.jpg';
 
 export default function Sidebar() {
   return (
     <div className="sidebar">
-      <img src={profilePhoto} alt="Profile" className="profile-pic" />
+      <img src="/src/assets/profile-photo.jpg" alt="Profile" className="profile-pic" />
       <h2 className="name">Altay Hodoglugil</h2>
       <p className="sub-name">Computer Science | UC Berkeley</p>
       <div className="icons">
