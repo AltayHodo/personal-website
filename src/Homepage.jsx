@@ -7,7 +7,7 @@ function HomePage() {
         🐻 💻 Hello there! Im a sophomore studying at UC Berkeley, majoring in
         Computer Science & Operations Research, with a minor in Data Science. I
         aspire to work as a software engineer or data scientist, and I have a
-        passion for the fields of technology, mathematics, and building things
+        passion for the fields of technology, mathematics, business, and building things
         with code.
       </div>
       <div className="info">
