@@ -43,7 +43,9 @@
 }
 
 .project-image {
-  max-width: 100px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
