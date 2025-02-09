@@ -1,2 +1,2 @@
 - Welcome to my personal website!
-- Check it out at this link: 
+- Check it out at this link: https://www.altayhodo.dev/
