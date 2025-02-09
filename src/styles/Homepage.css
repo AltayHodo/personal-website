@@ -16,6 +16,7 @@
   background-color: #f9f9f9;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* overflow-x: auto; */
 }
 
 .projects-table {
@@ -25,9 +26,14 @@
   font-family: Arial, sans-serif;
 }
 
+
 .projects-table th, .projects-table td {
   padding: 12px;
   border-bottom: 1px solid #ddd;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  font-size: 18px;
 }
 
 .projects-table th {
@@ -48,4 +54,23 @@
   object-fit: cover;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .projects-table{
+    table-layout: fixed;
+  }
+
+  .projects-container th{
+    font-size: 9px;
+  }
+
+  .project-image{
+    width: 80px;
+    height: 80px;
+  }
+
+  .projects-table td:nth-child(3) {
+    font-size: 11px;
+  }
 }

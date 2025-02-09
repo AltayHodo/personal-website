@@ -22,7 +22,7 @@ function HomePage() {
         <div className="projects-container">
           <table className="projects-table">
             <thead>
-              <tr>
+              <tr className="projects-top-row">
                 <th>Name</th>
                 <th>Image</th>
                 <th>Description</th>
