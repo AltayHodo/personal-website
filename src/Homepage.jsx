@@ -4,7 +4,7 @@ function HomePage() {
   return (
     <div className="home-page">
       <div className="info">
-        🐻 💻 Hello there! Im a sophomore studying at UC Berkeley, majoring in
+        🐻 💻 Hello there! Im a junior studying at UC Berkeley, majoring in
         Computer Science & Operations Research, with a minor in Data Science. I
         aspire to work as a software engineer or data scientist, and I have a
         passion for the fields of technology, mathematics, business, and building things
