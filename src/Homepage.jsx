@@ -7,8 +7,8 @@ function HomePage() {
         🐻 💻 Hello there! Im a junior studying at UC Berkeley, majoring in
         Computer Science & Operations Research, with a minor in Data Science. I
         aspire to work as a software engineer or data scientist, and I have a
-        passion for the fields of technology, mathematics, business, and building things
-        with code.
+        passion for the fields of technology, mathematics, business, and
+        building things with code.
       </div>
       <div className="info">
         🏀 🏋️ In my free time, you’ll probably catch me playing basketball,
@@ -66,6 +66,24 @@ function HomePage() {
                   A fantasy basketball project that forecasts player statistics
                   and recommends players to add to your fantasy team.
                 </td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="https://odin-memory-card-five.vercel.app/"
+                    target="_blank"
+                  >
+                    Memory Card 
+                  </a>
+                </td>
+                <td>
+                  <img
+                    src="/eevee.png"
+                    alt="Project 3 Image"
+                    className="project-image"
+                  />
+                </td>
+                <td>How many Pokémon can you remember in a row?</td>
               </tr>
             </tbody>
           </table>
