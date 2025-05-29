@@ -5,7 +5,7 @@ export default function Sidebar() {
     <div className="sidebar">
       <img src="/profile-photo.jpg" alt="Profile" className="profile-pic" />
       <h2 className="name">Altay Hodoglugil</h2>
-      <p className="sub-name">Computer Science | UC Berkeley</p>
+      <p className="sub-name">Computer Science, UC Berkeley</p>
       <div className="icons">
         <a href="" className="location-icon">
           <i className="fa-solid fa-location-dot icon-pad-right"></i><span>Berkeley, CA</span>

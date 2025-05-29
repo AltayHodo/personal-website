@@ -12,8 +12,8 @@ function HomePage() {
       </div>
       <div className="info">
         🏀 🏋️ In my free time, you’ll probably catch me playing basketball,
-        working out, or watching the Warriors. Feel free to reach out to me
-        about anything at{' '}
+        pickleball, working out, or watching the Warriors. Feel free to reach
+        out to me about anything at{' '}
         <a href="mailto:altayhodo@berkeley.edu">altayhodo@berkeley.edu</a>.
       </div>
 
@@ -73,7 +73,7 @@ function HomePage() {
                     href="https://odin-memory-card-five.vercel.app/"
                     target="_blank"
                   >
-                    Memory Card 
+                    Memory Card
                   </a>
                 </td>
                 <td>
