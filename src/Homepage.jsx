@@ -32,6 +32,28 @@ function HomePage() {
               <tr>
                 <td>
                   <a
+                    href="https://statstreak.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    StatStreak
+                  </a>
+                </td>
+                <td>
+                  <img
+                    src="/statstreak-logo.png"
+                    alt="Project 1 Image"
+                    className="project-image"
+                  />
+                </td>
+                <td>
+                  A daily NBA game where you guess which players lead different
+                  stat categories, with 1,000+ users
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a
                     href="https://resumai-pi.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -84,25 +106,6 @@ function HomePage() {
                   />
                 </td>
                 <td>How many Pokémon can you remember in a row?</td>
-              </tr>
-              <tr>
-                <td>
-                  <a href="https://loan-app-teal.vercel.app/" target="_blank">
-                    Loan Dashboard
-                  </a>
-                </td>
-                <td>
-                  <img
-                    src="/loan-image.avif"
-                    alt="Project 4 Image"
-                    className="project-image"
-                  />
-                </td>
-                <td>
-                  A dashboard that runs a script to retrieve loan data from .csv
-                  and .xlsx files from emails, stores in them in a database and
-                  displays on the UI.
-                </td>
               </tr>
             </tbody>
           </table>
